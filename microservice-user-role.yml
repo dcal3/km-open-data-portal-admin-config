@@ -1,0 +1,10 @@
+server:
+  port: 9003
+spring:
+  datasource:
+    sql-script-encoding: UTF-8
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true
