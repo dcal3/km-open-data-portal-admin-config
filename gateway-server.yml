@@ -12,7 +12,7 @@ spring:
       - id: microservice-user
         uri: lb://MICROSERVICE-USER
         predicates:
-        - Method=GET
+        - Path=/microservice-user
       - id: microservice-roles
         uri: lb://MICROSERVICE-ROLES
         predicates:
