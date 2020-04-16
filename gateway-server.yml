@@ -21,3 +21,12 @@ spring:
         uri: lb://MICROSERVICE-USER-ROLE
         predicates:
         - Path=/microservice-user-role/**
+        
+management:
+  endpoint:
+    gateway:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: gateway
