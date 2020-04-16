@@ -4,3 +4,16 @@ eureka:
       defaultZone: http://localhost:9102/eureka/
 server:
   port: 9004
+  
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: microservice-user
+        uri: lb://MICROSERVICE-USER
+        predicates:
+        - Path=/**
+      - id: microservice-role
+        uri: lb://MICROSERVICE-ROLE
+        predicates:
+        - Path=/**
