@@ -8,9 +8,6 @@ server:
 spring:
   cloud:
   cloud:
-    loadbalancer:
-       ribbon:
-         enabled: false
     gateway:
       routes:
       - id: microservice-user
