@@ -16,11 +16,11 @@ spring:
       - id: microservice-roles
         uri: lb://MICROSERVICE-ROLES
         predicates:
-        - Path=/microservice-roles
+        - Path=/Roles/**
       - id: microservice-user-role
         uri: lb://MICROSERVICE-USER-ROLE
         predicates:
-        - Path=/microservice-user-role/**
+        - Path=/UserRoles/**
         
 management:
   endpoint:
