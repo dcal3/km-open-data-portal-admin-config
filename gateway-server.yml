@@ -10,9 +10,17 @@ spring:
     gateway:
       routes:
       - id: microservice-user
-        uri: http://localhost:9102
+        uri: lb://MICROSERVICE-USER
         predicates:
-        - Path=/**
+        - Path=/Users/**
+      - id: microservice-roles
+        uri: lb://MICROSERVICE-ROLES
+        predicates:
+        - Path=/microservice-roles
+      - id: microservice-user-role
+        uri: lb://MICROSERVICE-USER-ROLE
+        predicates:
+        - Path=/microservice-user-role/**
         
 management:
   endpoint:
