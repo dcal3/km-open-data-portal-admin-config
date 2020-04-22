@@ -21,6 +21,10 @@ spring:
         uri: lb://MICROSERVICE-USER-ROLE
         predicates:
         - Path=/UserRoles/**
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
         
 management:
   endpoint:
