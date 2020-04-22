@@ -26,6 +26,13 @@ spring:
           '[/**]':
             allowedOrigins: "*"
         
+  security:
+      user:
+        name: apiuser
+        password: apipwd
+        roles:
+        - manager
+        
 management:
   endpoint:
     gateway:
