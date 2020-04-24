@@ -25,6 +25,7 @@ spring:
         corsConfigurations:
           '[/**]':
             allowedOrigins: "*"
+            allowedMethods: "*"
         
   security:
       user:
