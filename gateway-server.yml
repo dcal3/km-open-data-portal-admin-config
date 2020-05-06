@@ -13,9 +13,6 @@ spring:
         uri: lb://MICROSERVICE-USER
         predicates:
         - Path=/Users/**
-        filters:
-          - AddResponseHeader=Access-Control-Allow-Credentials, true
-          - AddResponseHeader=Access-Control-Allow-Origin, *
       - id: microservice-roles
         uri: lb://MICROSERVICE-ROLES
         predicates:
@@ -30,7 +27,9 @@ spring:
             allowedOrigins: "*"
             allowedMethods: "*"
             allowedHeaders: "Authorization"
-        
+      default-filters:
+        - AddResponseHeader=Access-Control-Allow-Credentials, true
+        - AddResponseHeader=Access-Control-Allow-Origin, *
   security:
       user:
         name: apiuser
