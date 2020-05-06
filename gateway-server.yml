@@ -39,13 +39,13 @@ security:
   auth:
     user: user
     password: pwd
-#    routes:
-#      book-id:
-#        user: userA
-#        password: passwordA
-#        authenticatorClasses:
-#          - com.basaki.edge.security.basic.BasicAuthenticator
-#          - com.basaki.edge.security.oauth2.JwtAuthenticator
+    routes:
+      microservice-user:
+        user: user
+        password: pwd
+        authenticatorClasses:
+          - com.basaki.edge.security.basic.BasicAuthenticator
+          - com.basaki.edge.security.oauth2.JwtAuthenticator
 
 management:
   endpoint:
