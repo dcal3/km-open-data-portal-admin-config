@@ -28,24 +28,12 @@ spring:
             allowedMethods: "*"
             allowedHeaders: "*"
         
-#  security:
-#      user:
-#        name: apiuser
-#        password: apipwd
-#        roles:
-#        - manager
-
-security:
-  auth:
-    user: user
-    password: pwd
-    routes:
-      microservice-user:
-        user: user
-        password: pwd
-        authenticatorClasses:
-          - com.basaki.edge.security.basic.BasicAuthenticator
-          - com.basaki.edge.security.oauth2.JwtAuthenticator
+  security:
+      user:
+        name: apiuser
+        password: apipwd
+        roles:
+        - manager
 
 management:
   endpoint:
