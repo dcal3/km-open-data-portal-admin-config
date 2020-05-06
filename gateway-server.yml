@@ -5,6 +5,10 @@ eureka:
 server:
   port: 9004
   
+logging:
+  level:
+    org.springframework: TRACE
+  
 spring:
   cloud:
     gateway:
