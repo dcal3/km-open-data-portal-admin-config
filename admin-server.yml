@@ -1,0 +1,15 @@
+server:
+  port: 9105
+
+spring:
+  boot:
+    admin:
+      discovery:
+        converter:
+          management-context-path: /actuator  
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
