@@ -31,7 +31,8 @@ spring:
             allowedOrigins: "*"
             allowedMethods: "*"
             allowedHeaders: "*"
-  security:
+            allowCreentials: true
+    security:
       user:
         name: apiuser
         password: apipwd
