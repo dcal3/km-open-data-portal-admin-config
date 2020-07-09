@@ -32,10 +32,10 @@ spring:
             allowedMethods: "*"
             allowedHeaders: "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With,observe"
             allowCredentials: true
-#    security:
-#      user:
-#        name: apiuser
-#        password: apipwd
+    security:
+      user:
+        name: apiuser
+        password: apipwd
 #        roles:
 #        - manager
 
