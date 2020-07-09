@@ -36,8 +36,8 @@ spring:
       user:
         name: apiuser
         password: apipwd
-#        roles:
-#        - manager
+        roles:
+        - manager
 
 management:
   endpoint:
