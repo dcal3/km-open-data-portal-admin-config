@@ -16,7 +16,7 @@ spring:
       - id: microservice-user
         uri: lb://MICROSERVICE-USER
         predicates:
-          - Path=/Users/**,Path=/Roles/**
+          - Path=/UserService/**
       globalcors:
         corsConfigurations:
           '[/**]':
