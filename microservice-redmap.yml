@@ -8,3 +8,8 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: none
+
+application:
+  path:
+    redmap:
+      reference: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/reference
