@@ -17,6 +17,10 @@ spring:
         uri: lb://MICROSERVICE-USER
         predicates:
           - Path=/UserService/**
+      - id: microservice-redmap
+        uri: lb://MICROSERVICE-REDMAP
+        predicates:
+          - Path=/RedmapService/**
       globalcors:
         corsConfigurations:
           '[/**]':
