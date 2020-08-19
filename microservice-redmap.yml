@@ -1,3 +1,8 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9102/eureka/
+
 spring:
   datasource:
     sql-script-encoding: UTF-8
@@ -8,6 +13,7 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: none
+    database-platform: org.hibernate.dialect.H2Dialect
 
 application:
   path:
