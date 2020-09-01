@@ -19,3 +19,5 @@ application:
   path:
     redmap:
       reference: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/reference
+      eurovoc: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/concept/reds:Concept_Eurovoc
+      
