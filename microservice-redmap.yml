@@ -17,6 +17,7 @@ spring:
 
 application:
   path:
+    eurovoc: http://eurovoc.europa.eu/
     redmap:
       reference: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/reference
       eurovoc: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/concept/reds:Concept_Eurovoc
