@@ -21,6 +21,10 @@ spring:
         uri: lb://MICROSERVICE-USER
         predicates:
           - Path=/UserService/**
+      - id: microservice-odp
+        uri: lb://MICROSERVICE-ODP
+        predicates:
+          - Path=/OdpDatasetService/**
       globalcors:
         corsConfigurations:
           '[/**]':
