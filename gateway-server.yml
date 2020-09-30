@@ -13,18 +13,10 @@ spring:
   cloud:
     gateway:
       routes:
-      - id: microservice-redmap
-        uri: lb://MICROSERVICE-REDMAP
-        predicates:
-          - Path=/RedmapService/**
-      - id: microservice-user
-        uri: lb://MICROSERVICE-USER
-        predicates:
-          - Path=/UserService/**
       - id: microservice-odp
         uri: lb://MICROSERVICE-ODP
         predicates:
-          - Path=/OdpDatasetService/**
+          - Path=/OdpDatasetService/**, /UserService/**, /RedmapService/**
       globalcors:
         corsConfigurations:
           '[/**]':
