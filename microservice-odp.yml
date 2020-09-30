@@ -21,4 +21,6 @@ application:
     redmap:
       reference: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/reference
       eurovoc: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/concept/reds:Concept_Eurovoc
-    
+    to:
+      store: /Users/sergecalmant/dev/nginx/storage/avatar
+      delivery: http://localhost:8080/storage/avatar
