@@ -21,4 +21,7 @@ application:
     redmap:
       catalog: http://localhost:8080/storage/redmap
       default-file: http://localhost:8080/storage/redmap/dataset-openapi-v3.json
-      
+  elasticsearch:
+    path: localhost:9200
+    user: user
+    password: password
