@@ -22,6 +22,8 @@ application:
       catalog: http://localhost:8080/storage/redmap
       catalog-default-file: http://localhost:8080/storage/redmap/dataset-openapi-v3.json
       reference-category: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/concept/reds:Concept_ReferenceCategory
+    list:
+      frequency: http://publications.europa.eu/resource/authority/frequency
   elasticsearch:
     path: localhost:9200
     user: user
