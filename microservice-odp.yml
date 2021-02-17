@@ -31,5 +31,5 @@ application:
         resource: http://localhost:8080/storage/resource
   elasticsearch:
     path: localhost:9200
-    user: user
-    password: password
+    user: odpdomadmin
+    password: N4xfjCvqrP+7K2kgv
