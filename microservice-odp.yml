@@ -30,6 +30,6 @@ application:
         avatar: http://localhost:8080/storage/avatar
         resource: http://localhost:8080/storage/resource
   elasticsearch:
-    path: https://vpc-odpdom-kd7s37g4cnelunvhdcdtqn563y.eu-west-1.es.amazonaws.com
+    path: https://vpc-odpdom-kd7s37g4cnelunvhdcdtqn563y.eu-west-1.es.amazonaws.com:443
     user: odpdomadmin
     password: N4xfjCvqrP+7K2kgv
