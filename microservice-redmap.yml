@@ -29,6 +29,7 @@ application:
     list:
       frequency: http://publications.europa.eu/resource/authority/frequency
   elasticsearch:
-    path: https://vpc-odpdom-kd7s37g4cnelunvhdcdtqn563y.eu-west-1.es.amazonaws.com:443
+    path: vpc-odpdom-kd7s37g4cnelunvhdcdtqn563y.eu-west-1.es.amazonaws.com:443
     user: odpdomadmin
     password: N4xfjCvqrP+7K2kgv
+    protocol: https
