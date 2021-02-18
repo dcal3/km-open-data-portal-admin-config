@@ -1,5 +1,6 @@
 spring:
-  profiles: aws
+  profiles:
+    active: aws
   datasource:
     sql-script-encoding: UTF-8
     url: jdbc:postgresql://op5ged84drifq1.cwwqkimdftdw.eu-west-1.rds.amazonaws.com:5432/odpdb
