@@ -1,6 +1,5 @@
 spring:
-  profiles:
-    active: default
+  profiles: default
   datasource:
     sql-script-encoding: UTF-8
     url: jdbc:postgresql://localhost:5432/odpdb
@@ -39,8 +38,7 @@ application:
 
 ---
 spring:
-  profiles:
-    active: aws-dev
+  profiles: aws-dev
   datasource:
     sql-script-encoding: UTF-8
     url: jdbc:postgresql://op5ged84drifq1.cwwqkimdftdw.eu-west-1.rds.amazonaws.com:5432/odpdb
