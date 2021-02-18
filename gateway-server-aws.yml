@@ -13,8 +13,8 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: microservice-odp
-          uri: lb://MICROSERVICE-ODP
+        - id: microservice-odp-aws
+          uri: lb://MICROSERVICE-ODP-AWS
           predicates:
             - Path=/OdpDatasetService/**, /UserService/**, /RedmapService/**
       globalcors:
