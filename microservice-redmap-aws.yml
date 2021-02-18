@@ -1,7 +1,7 @@
 spring:
   datasource:
     sql-script-encoding: UTF-8
-    url: jdbc:postgresql://localhost:5432/odpdb
+    url: jdbc:postgresql://op5ged84drifq1.cwwqkimdftdw.eu-west-1.rds.amazonaws.com:5432/odpdb
     username: odpuser
     password: changeme
     driver-class-name: org.postgresql.Driver
@@ -29,7 +29,7 @@ application:
     list:
       frequency: http://publications.europa.eu/resource/authority/frequency
   elasticsearch:
-    path: localhost:9200
+    path: vpc-odpdom-kd7s37g4cnelunvhdcdtqn563y.eu-west-1.es.amazonaws.com:443
     user: odpdomadmin
     password: N4xfjCvqrP+7K2kgv
-    protocol: http
+    protocol: https
