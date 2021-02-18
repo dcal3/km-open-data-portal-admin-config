@@ -1,4 +1,6 @@
 spring:
+  profiles:
+    active: default
   datasource:
     sql-script-encoding: UTF-8
     url: jdbc:postgresql://localhost:5432/odpdb
