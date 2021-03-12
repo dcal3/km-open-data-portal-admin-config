@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:5100/eureka/
+      defaultZone: http://ip-10-103-13-170.eu-west-1.compute.internal:5100/
 server:
   port: 5200
   
