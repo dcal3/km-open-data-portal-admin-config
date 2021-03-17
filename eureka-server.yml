@@ -11,6 +11,6 @@ eureka:
     fetchRegistry: false
     registerWithEureka: false
     serviceUrl:
-      defaultZone: http://localhost:5100/eureka/
+      defaultZone: http://localhost:5100/edgeeureka/eureka/
 server:
   port: 5100
