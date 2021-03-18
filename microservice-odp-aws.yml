@@ -14,7 +14,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://ip-10-103-13-145.eu-west-1.compute.internal/edgeeureka/eureka/
+      defaultZone: http://awseb-AWSEB-C5YO7RRI7F8Z-359842224.eu-west-1.elb.amazonaws.com/edgeeureka/eureka/
 
 application:
   path:
