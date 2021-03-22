@@ -15,6 +15,10 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:5100/edgeeureka/eureka/
+      eureka:
+  instance:
+    hostname: toto
+    nonSecurePort: 80
 
 application:
   path:
