@@ -18,10 +18,10 @@ eureka:
       eureka:
   instance:
     hostname: toto
-    secure-port-enabled=true
-    nonsecure-port-enabled=false
-    nonSecurePort=80
-    securePort=443
+    secure-port-enabled: true
+    nonsecure-port-enabled: false
+    nonSecurePort: 80
+    securePort: 443
 
 application:
   path:
