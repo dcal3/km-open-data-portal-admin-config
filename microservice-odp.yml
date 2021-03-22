@@ -18,7 +18,7 @@ eureka:
       eureka:
   instance:
     hostname: toto
-    nonSecurePort: 80
+    non-secure-port: 1234
 
 application:
   path:
