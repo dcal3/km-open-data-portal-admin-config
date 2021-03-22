@@ -3,7 +3,7 @@ eureka:
     serviceUrl:
       defaultZone: http://awseb-AWSEB-NKRHE4WJ2R7G-1662464568.eu-west-1.elb.amazonaws.com/edgeeureka/eureka/
 server:
-  port: 5200
+  port: 5000
   
 logging:
   level:
