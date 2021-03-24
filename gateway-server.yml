@@ -16,7 +16,7 @@ spring:
         - id: microservice-odp
           uri: lb://MICROSERVICE-ODP
           predicates:
-            - Path=/OdpDatasetService/**, /UserService/**, /RedmapService/**
+            - Path=/OdpDatasetService/**, /UserService/**, /RedmapService/**, /redmap/**
       globalcors:
         corsConfigurations:
           '[/**]':
