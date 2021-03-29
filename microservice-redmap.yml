@@ -19,12 +19,12 @@ eureka:
 application:
   path:
     redmap:
-      catalog: http://localhost:8080/storage/redmap
-      catalog-default-file: http://localhost:8080/storage/redmap/dataset-openapi-v3.json
-      reference-file: http://localhost:8080/storage/redmap/ReferenceType.json
-      term-file: http://localhost:8080/storage/redmap/ParliamentaryTerm.json
-      role-file: http://localhost:8080/storage/redmap/PersonRole.json
-      reference-category-file: http://localhost:8080/storage/redmap/ReferenceCategory.json
+      catalog: redmap
+      catalog-default-file: redmap/dataset-openapi-v3.json
+      reference-file: redmap/ReferenceType.json
+      term-file: redmap/ParliamentaryTerm.json
+      role-file: redmap/PersonRole.json
+      reference-category-file: redmap/ReferenceCategory.json
       reference-category: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/concept/reds:Concept_ReferenceCategory
     list:
       frequency: http://publications.europa.eu/resource/authority/frequency
