@@ -26,12 +26,12 @@ eureka:
 application:
   path:
     redmap:
-      catalog: https://odp-admin-bucket.s3-eu-west-1.amazonaws.com/redmap
-      catalog-default-file: https://odp-admin-bucket.s3-eu-west-1.amazonaws.com/redmap/dataset-openapi-v3.json
-      reference-file: https://odp-admin-bucket.s3-eu-west-1.amazonaws.com/redmap/ReferenceType.json
-      term-file: https://odp-admin-bucket.s3-eu-west-1.amazonaws.com/redmap/ParliamentaryTerm.json
-      role-file: https://odp-admin-bucket.s3-eu-west-1.amazonaws.com/redmap/PersonRole.json
-      reference-category-file: https://odp-admin-bucket.s3-eu-west-1.amazonaws.com/redmap/ReferenceCategory.json
+      catalog: redmap
+      catalog-default-file: redmap/dataset-openapi-v3.json
+      reference-file: redmap/ReferenceType.json
+      term-file: redmap/ParliamentaryTerm.json
+      role-file: redmap/PersonRole.json
+      reference-category-file: redmap/ReferenceCategory.json
       reference-category: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/concept/reds:Concept_ReferenceCategory
     list:
       frequency: http://publications.europa.eu/resource/authority/frequency

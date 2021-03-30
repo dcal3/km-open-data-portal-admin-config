@@ -31,11 +31,11 @@ application:
       eurovoc: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/concept/reds:Concept_Eurovoc
     to:
       store:
-        avatar: /Users/sergecalmant/dev/nginx/storage/avatar
-        resource: /Users/sergecalmant/dev/nginx/storage/resource
+        avatar: storage/avatar
+        resource: storage/resource
       delivery:
-        avatar: https://odp-admin-bucket.s3-eu-west-1.amazonaws.com/storage/avatar
-        resource: https://odp-admin-bucket.s3-eu-west-1.amazonaws.com/storage/resource
+        avatar: storage/avatar
+        resource: storage/resource
   elasticsearch:
     path: vpc-odpdom-kd7s37g4cnelunvhdcdtqn563y.eu-west-1.es.amazonaws.com:443
     user: odpdomadmin

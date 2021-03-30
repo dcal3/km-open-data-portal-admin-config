@@ -25,11 +25,11 @@ application:
       eurovoc: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/concept/reds:Concept_Eurovoc
     to:
       store:
-        avatar: /Users/sergecalmant/dev/nginx/storage/avatar
-        resource: /Users/sergecalmant/dev/nginx/storage/resource
+        avatar: storage/avatar
+        resource: storage/resource
       delivery:
-        avatar: http://localhost:8080/storage/avatar
-        resource: http://localhost:8080/storage/resource
+        avatar: storage/avatar
+        resource: storage/resource
   elasticsearch:
     path: localhost:9200
     user: odpdomadmin
