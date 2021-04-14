@@ -35,3 +35,6 @@ application:
     user: odpdomadmin
     password: N4xfjCvqrP+7K2kgv
     protocol: http
+aws:
+    region: eu-west-1
+    bucketName: odp-admin-bucket
