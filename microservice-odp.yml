@@ -33,5 +33,5 @@ aws:
         region: eu-west-1
         bucketName: odp-admin-bucket
         store:
-            avatar: storage/avatar
-            resource: storage/resource
+            avatar: avatar
+            resource: resource
