@@ -42,5 +42,8 @@ application:
     password: N4xfjCvqrP+7K2kgv
     protocol: https
 aws:
-    region: eu-west-1
-    bucketName: odp-admin-bucket
+    s3:
+        region: eu-west-1
+        bucketName: odp-admin-bucket
+        store:
+            redmap: redmap

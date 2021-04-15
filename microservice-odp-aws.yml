@@ -29,18 +29,15 @@ application:
     redmap:
       reference: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/reference
       eurovoc: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/concept/reds:Concept_Eurovoc
-    to:
-      store:
-        avatar: storage/avatar
-        resource: storage/resource
-      delivery:
-        avatar: storage/avatar
-        resource: storage/resource
   elasticsearch:
     path: vpc-odpdom-kd7s37g4cnelunvhdcdtqn563y.eu-west-1.es.amazonaws.com:443
     user: odpdomadmin
     password: N4xfjCvqrP+7K2kgv
     protocol: https
 aws:
-    region: eu-west-1
-    bucketName: odp-admin-bucket
+    s3:
+        region: eu-west-1
+        bucketName: odp-admin-bucket
+        store:
+            avatar: storage/avatar
+            resource: storage/resource

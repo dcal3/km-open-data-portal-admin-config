@@ -37,3 +37,9 @@ application:
 aws:
     region: eu-west-1
     bucketName: odp-admin-bucket
+aws:
+    s3:
+        region: eu-west-1
+        bucketName: odp-admin-bucket
+        store:
+            redmap: redmap
