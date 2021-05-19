@@ -41,3 +41,4 @@ aws:
         store:
             avatar: avatar
             resource: resource
+            frontUser: frontUser
