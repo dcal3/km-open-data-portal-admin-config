@@ -24,7 +24,7 @@ application:
       reference: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/reference
       eurovoc: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/concept/reds:Concept_Eurovoc
   elasticsearch:
-    path: toto:9200
+    path: localhost:9200
     user: odpdomadmin
     password: N4xfjCvqrP+7K2kgv
     protocol: http
