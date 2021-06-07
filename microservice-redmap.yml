@@ -29,6 +29,7 @@ application:
     list:
       frequency: http://publications.europa.eu/resource/authority/frequency
       dataTheme: http://publications.europa.eu/resource/authority/data-theme
+      country: http://publications.europa.eu/resource/authority/country
   elasticsearch:
     path: localhost:9200
     user: odpdomadmin

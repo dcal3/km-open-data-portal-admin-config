@@ -36,6 +36,7 @@ application:
     list:
       frequency: http://publications.europa.eu/resource/authority/frequency
       dataTheme: http://publications.europa.eu/resource/authority/data-theme
+      country: http://publications.europa.eu/resource/authority/country
   elasticsearch:
     path: vpc-odpdom-kd7s37g4cnelunvhdcdtqn563y.eu-west-1.es.amazonaws.com:443
     user: odpdomadmin
