@@ -25,6 +25,7 @@ eureka:
 
 application:
   path:
+    eurovoc: http://eurovoc.europa.eu/
     redmap:
       catalog: redmap
       catalog-default-file: redmap/dataset-openapi-v3.json
