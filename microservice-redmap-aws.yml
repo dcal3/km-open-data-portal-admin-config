@@ -34,6 +34,7 @@ application:
       role-file: redmap/PersonRole.json
       reference-category-file: redmap/ReferenceCategory.json
       reference-category: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/concept/reds:Concept_ReferenceCategory
+      eurovoc: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/concept/reds:Concept_Eurovoc
     list:
       frequency: http://publications.europa.eu/resource/authority/frequency
       dataTheme: http://publications.europa.eu/resource/authority/data-theme
