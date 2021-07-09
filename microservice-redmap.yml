@@ -11,10 +11,6 @@ spring:
       ddl-auto: validate
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:5100/edgeeureka/eureka/
 
 application:
   path:
