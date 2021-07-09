@@ -11,18 +11,6 @@ spring:
       ddl-auto: validate
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://awseb-AWSEB-NKRHE4WJ2R7G-1662464568.eu-west-1.elb.amazonaws.com/edgeeureka/eureka/
-
-  instance:
-    hostname: awseb-AWSEB-1O7255VEX9I14-1191151781.eu-west-1.elb.amazonaws.com
-    secure-port-enabled: false
-    nonsecure-port-enabled: true
-    nonSecurePort: 80
-    securePort: 443
-
 application:
   path:
     eurovoc: http://eurovoc.europa.eu/
