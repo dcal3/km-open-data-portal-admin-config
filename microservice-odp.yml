@@ -28,5 +28,6 @@ aws:
         bucketName: odp-admin-bucket
         store:
             avatar: avatar
+            cover: cover
             resource: resource
             frontUser: frontUser
