@@ -38,3 +38,4 @@ aws:
         bucketName: odp-admin-bucket
         store:
             redmap: redmap
+            resource: resource
