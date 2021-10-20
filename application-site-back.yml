@@ -23,8 +23,6 @@ application:
     user: odpdomadmin
     password: N4xfjCvqrP+7K2kgv
     protocol: http
-  sitemap:
-    quartz: 0 0 6 ? * * *
 aws:
   s3:
     region: eu-west-1
