@@ -12,6 +12,7 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
 application:
+  language: bg, es, cs, da, de, et, el, en, fr, ga, hr, it, lv, lt, hu, mt, nl, pl, pt, ro, sk, sl, fi, sv
   path:
     front: http://odp-appe-j99ig9jt823p.eba-pgcyydbs.eu-west-1.elasticbeanstalk.com
     eurovoc: http://eurovoc.europa.eu/
