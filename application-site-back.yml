@@ -10,7 +10,6 @@ spring:
     hibernate:
       ddl-auto: validate
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-    
 application:
   language: bg,es,cs,da,de,et,el,en,fr,ga,hr,it,lv,lt,hu,mt,nl,pl,pt,ro,sk,sl,fi,sv
   path:
@@ -24,12 +23,14 @@ application:
     user: odpdomadmin
     password: N4xfjCvqrP+7K2kgv
     protocol: http
+  sitemap:
+    quartz: 0 0 6 ? * * *
 aws:
-    s3:
-        region: eu-west-1
-        bucketName: odp-admin-bucket
-        store:
-            avatar: avatar
-            resource: resource
-            frontUser: frontUser
-            sitemap: sitemap
+  s3:
+    region: eu-west-1
+    bucketName: odp-admin-bucket
+    store:
+      avatar: avatar
+      resource: resource
+      frontUser: frontUser
+      sitemap: sitemap
