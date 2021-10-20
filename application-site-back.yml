@@ -30,3 +30,4 @@ aws:
             avatar: avatar
             resource: resource
             frontUser: frontUser
+            sitemap: sitemap
