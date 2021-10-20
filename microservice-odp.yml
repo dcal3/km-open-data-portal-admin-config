@@ -31,3 +31,4 @@ aws:
             cover: cover
             resource: resource
             frontUser: frontUser
+            sitemap: sitemap
