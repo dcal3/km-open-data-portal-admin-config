@@ -1,0 +1,41 @@
+spring:
+  datasource:
+    sql-script-encoding: UTF-8
+    url: jdbc:postgresql://op5ged84drifq1.cwwqkimdftdw.eu-west-1.rds.amazonaws.com:5432/odpdb
+    username: odpuser
+    password: changeme
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+application:
+  path:
+    eurovoc: http://eurovoc.europa.eu/
+    redmap:
+      catalog: redmap
+      catalog-default-file: redmap/dataset-openapi-v3.json
+      reference-file: redmap/ReferenceType.json
+      term-file: redmap/ParliamentaryTerm.json
+      role-file: redmap/PersonRole.json
+      reference-category-file: redmap/ReferenceCategory.json
+      reference-category: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/concept/reds:Concept_ReferenceCategory
+      eurovoc: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/concept/reds:Concept_Eurovoc
+    list:
+      frequency: http://publications.europa.eu/resource/authority/frequency
+      dataTheme: http://publications.europa.eu/resource/authority/data-theme
+      country: http://publications.europa.eu/resource/authority/country
+  elasticsearch:
+    path: vpc-odpdom-kd7s37g4cnelunvhdcdtqn563y.eu-west-1.es.amazonaws.com:443
+    user: odpdomadmin
+    password: N4xfjCvqrP+7K2kgv
+    protocol: https
+aws:
+    s3:
+        region: eu-west-1
+        bucketName: odp-admin-bucket
+        store:
+            redmap: redmap
+            resource: resource
