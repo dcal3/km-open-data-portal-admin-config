@@ -13,7 +13,7 @@ spring:
 application:
   language: bg,es,cs,da,de,et,el,en,fr,ga,hr,it,lv,lt,hu,mt,nl,pl,pt,ro,sk,sl,fi,sv
   path:
-    front: https://nyiwpht1kf.execute-api.eu-west-1.amazonaws.com/sitefront
+    front: https://l79duvpa54.execute-api.eu-west-1.amazonaws.com/sitefront
     eurovoc: http://eurovoc.europa.eu/
     redmap:
       reference: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/reference
