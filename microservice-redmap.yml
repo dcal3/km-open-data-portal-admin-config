@@ -11,7 +11,6 @@ spring:
       ddl-auto: validate
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
-
 application:
   path:
     eurovoc: http://eurovoc.europa.eu/
@@ -40,3 +39,7 @@ aws:
         store:
             redmap: redmap
             resource: resource
+url:
+    km:
+        load:
+            dataset: http://

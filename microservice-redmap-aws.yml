@@ -39,3 +39,7 @@ aws:
         store:
             redmap: redmap
             resource: resource
+url:
+    km:
+        load:
+            dataset: http://
