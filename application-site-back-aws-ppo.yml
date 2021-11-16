@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    sql-script-encoding: UTF-8
+    url: jdbc:postgresql://op5ged84drifq1.cwwqkimdftdw.eu-west-1.rds.amazonaws.com:5432/odpdb
+    username: odpuser
+    password: changeme
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: validate
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+application:
+  language: bg,es,cs,da,de,et,el,en,fr,ga,hr,it,lv,lt,hu,mt,nl,pl,pt,ro,sk,sl,fi,sv
+  path:
+    front: https://l79duvpa54.execute-api.eu-west-1.amazonaws.com/sitefront
+    eurovoc: http://eurovoc.europa.eu/
+    redmap:
+      reference: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/reference
+      eurovoc: http://www.redmapl3.europarl.europa.eu/RedmapFront/Redmap/concept/reds:Concept_Eurovoc
+  elasticsearch:
+    path: vpc-odpdom-kd7s37g4cnelunvhdcdtqn563y.eu-west-1.es.amazonaws.com:443
+    user: odpdomadmin
+    password: N4xfjCvqrP+7K2kgv
+    protocol: https
+aws:
+  s3:
+    region: eu-west-1
+    bucketName: odp-admin-bucket
+    store:
+      avatar: avatar
+      resource: resource
+      frontUser: frontUser
+      sitemap: sitemap
